@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BFA34F5319D40E1600463B49 /* ssdp-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BFA34F5419D40E1600463B49 /* Build configuration list for PBXAggregateTarget "ssdp-universal" */;
+			buildPhases = (
+				BFA34F5719D40E2200463B49 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "ssdp-universal";
+			productName = "ssdp-universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BFA34F4519D4078A00463B49 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F3A19D4078A00463B49 /* GCDAsyncUdpSocket.m */; };
+		BFA34F4619D4078B00463B49 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F3A19D4078A00463B49 /* GCDAsyncUdpSocket.m */; };
+		BFA34F4719D4078B00463B49 /* SSDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F3C19D4078A00463B49 /* SSDPSocket.m */; };
+		BFA34F4819D4078B00463B49 /* SSDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F3C19D4078A00463B49 /* SSDPSocket.m */; };
+		BFA34F4919D4078B00463B49 /* SSDPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F3E19D4078A00463B49 /* SSDPDevice.m */; };
+		BFA34F4A19D4078B00463B49 /* SSDPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F3E19D4078A00463B49 /* SSDPDevice.m */; };
+		BFA34F4B19D4078B00463B49 /* SSDPDeviceIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F4019D4078A00463B49 /* SSDPDeviceIcon.m */; };
+		BFA34F4C19D4078B00463B49 /* SSDPDeviceIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F4019D4078A00463B49 /* SSDPDeviceIcon.m */; };
+		BFA34F4D19D4078B00463B49 /* SSDPDeviceService.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F4219D4078A00463B49 /* SSDPDeviceService.m */; };
+		BFA34F4E19D4078B00463B49 /* SSDPDeviceService.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F4219D4078A00463B49 /* SSDPDeviceService.m */; };
+		BFA34F4F19D4078B00463B49 /* SSDPDeviceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F4419D4078A00463B49 /* SSDPDeviceParser.m */; };
+		BFA34F5019D4078B00463B49 /* SSDPDeviceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F4419D4078A00463B49 /* SSDPDeviceParser.m */; };
+		BFA34F5219D407BF00463B49 /* ssdpTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA34F5119D407BF00463B49 /* ssdpTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFA34F2019D4075400463B49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFA34F2219D4075400463B49 /* libssdp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libssdp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA34F2D19D4075400463B49 /* ssdpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ssdpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA34F3019D4075400463B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA34F3919D4078A00463B49 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		BFA34F3A19D4078A00463B49 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		BFA34F3B19D4078A00463B49 /* SSDPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPSocket.h; sourceTree = "<group>"; };
+		BFA34F3C19D4078A00463B49 /* SSDPSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPSocket.m; sourceTree = "<group>"; };
+		BFA34F3D19D4078A00463B49 /* SSDPDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPDevice.h; sourceTree = "<group>"; };
+		BFA34F3E19D4078A00463B49 /* SSDPDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDevice.m; sourceTree = "<group>"; };
+		BFA34F3F19D4078A00463B49 /* SSDPDeviceIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPDeviceIcon.h; sourceTree = "<group>"; };
+		BFA34F4019D4078A00463B49 /* SSDPDeviceIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDeviceIcon.m; sourceTree = "<group>"; };
+		BFA34F4119D4078A00463B49 /* SSDPDeviceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPDeviceService.h; sourceTree = "<group>"; };
+		BFA34F4219D4078A00463B49 /* SSDPDeviceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDeviceService.m; sourceTree = "<group>"; };
+		BFA34F4319D4078A00463B49 /* SSDPDeviceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPDeviceParser.h; sourceTree = "<group>"; };
+		BFA34F4419D4078A00463B49 /* SSDPDeviceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDeviceParser.m; sourceTree = "<group>"; };
+		BFA34F5119D407BF00463B49 /* ssdpTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssdpTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA34F1F19D4075400463B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA34F2A19D4075400463B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA34F1919D4075400463B49 = {
+			isa = PBXGroup;
+			children = (
+				BFA34F2419D4075400463B49 /* ssdp */,
+				BFA34F2E19D4075400463B49 /* ssdpTests */,
+				BFA34F2319D4075400463B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA34F2319D4075400463B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA34F2219D4075400463B49 /* libssdp.a */,
+				BFA34F2D19D4075400463B49 /* ssdpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA34F2419D4075400463B49 /* ssdp */ = {
+			isa = PBXGroup;
+			children = (
+				BFA34F3919D4078A00463B49 /* GCDAsyncUdpSocket.h */,
+				BFA34F3A19D4078A00463B49 /* GCDAsyncUdpSocket.m */,
+				BFA34F3B19D4078A00463B49 /* SSDPSocket.h */,
+				BFA34F3C19D4078A00463B49 /* SSDPSocket.m */,
+				BFA34F3D19D4078A00463B49 /* SSDPDevice.h */,
+				BFA34F3E19D4078A00463B49 /* SSDPDevice.m */,
+				BFA34F3F19D4078A00463B49 /* SSDPDeviceIcon.h */,
+				BFA34F4019D4078A00463B49 /* SSDPDeviceIcon.m */,
+				BFA34F4119D4078A00463B49 /* SSDPDeviceService.h */,
+				BFA34F4219D4078A00463B49 /* SSDPDeviceService.m */,
+				BFA34F4319D4078A00463B49 /* SSDPDeviceParser.h */,
+				BFA34F4419D4078A00463B49 /* SSDPDeviceParser.m */,
+			);
+			path = ssdp;
+			sourceTree = "<group>";
+		};
+		BFA34F2E19D4075400463B49 /* ssdpTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA34F2F19D4075400463B49 /* Supporting Files */,
+				BFA34F5119D407BF00463B49 /* ssdpTest.m */,
+			);
+			path = ssdpTests;
+			sourceTree = "<group>";
+		};
+		BFA34F2F19D4075400463B49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA34F3019D4075400463B49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA34F2119D4075400463B49 /* ssdp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA34F3319D4075400463B49 /* Build configuration list for PBXNativeTarget "ssdp" */;
+			buildPhases = (
+				BFA34F1E19D4075400463B49 /* Sources */,
+				BFA34F1F19D4075400463B49 /* Frameworks */,
+				BFA34F2019D4075400463B49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ssdp;
+			productName = ssdp;
+			productReference = BFA34F2219D4075400463B49 /* libssdp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFA34F2C19D4075400463B49 /* ssdpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA34F3619D4075400463B49 /* Build configuration list for PBXNativeTarget "ssdpTests" */;
+			buildPhases = (
+				BFA34F2919D4075400463B49 /* Sources */,
+				BFA34F2A19D4075400463B49 /* Frameworks */,
+				BFA34F2B19D4075400463B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ssdpTests;
+			productName = ssdpTests;
+			productReference = BFA34F2D19D4075400463B49 /* ssdpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA34F1A19D4075400463B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sam Wang";
+				TargetAttributes = {
+					BFA34F2119D4075400463B49 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BFA34F2C19D4075400463B49 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BFA34F5319D40E1600463B49 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BFA34F1D19D4075400463B49 /* Build configuration list for PBXProject "ssdp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFA34F1919D4075400463B49;
+			productRefGroup = BFA34F2319D4075400463B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA34F2119D4075400463B49 /* ssdp */,
+				BFA34F5319D40E1600463B49 /* ssdp-universal */,
+				BFA34F2C19D4075400463B49 /* ssdpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA34F2B19D4075400463B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFA34F5719D40E2200463B49 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nCURRENTPATH=`pwd`\n\nrm -rf \"${CURRENTPATH}/build-*\"\n\nmkdir -p \"${CURRENTPATH}/build-arm\"\nmkdir -p \"${CURRENTPATH}/build-arm64\"\nmkdir -p \"${CURRENTPATH}/build-i386\"\nmkdir -p \"${CURRENTPATH}/build-x86_64\"\nmkdir -p \"${CURRENTPATH}/build-universal\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -project 'ssdp.xcodeproj' -configuration ${CONFIGURATION} -sdk iphoneos clean build ARCHS='armv7 armv7s' IPHONEOS_DEPLOYMENT_TARGET='5.0' TARGET_BUILD_DIR='./build-arm' BUILT_PRODUCTS_DIR='./build-arm'\nxcodebuild -project 'ssdp.xcodeproj' -configuration ${CONFIGURATION} -sdk iphoneos clean build ARCHS='arm64' IPHONEOS_DEPLOYMENT_TARGET='7.0' TARGET_BUILD_DIR='./build-arm64' BUILT_PRODUCTS_DIR='./build-arm64'\nxcodebuild -project 'ssdp.xcodeproj' -configuration ${CONFIGURATION} -sdk iphonesimulator clean build ARCHS='i386' IPHONEOS_DEPLOYMENT_TARGET='5.0' TARGET_BUILD_DIR='./build-i386' BUILT_PRODUCTS_DIR='./build-i386'\nxcodebuild -project 'ssdp.xcodeproj' -configuration ${CONFIGURATION} -sdk iphonesimulator clean build ARCHS='x86_64' VALID_ARCHS='x86_64' IPHONEOS_DEPLOYMENT_TARGET='7.0' TARGET_BUILD_DIR='./build-x86_64' BUILT_PRODUCTS_DIR='./build-x86_64'\n\n# Step 2. Create universal binary file using lipo\nlipo -create './build-arm/libssdp.a' './build-arm64/libssdp.a' './build-i386/libssdp.a' './build-x86_64/libssdp.a' -output './build-universal/libssdp.a'\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA34F1E19D4075400463B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA34F4719D4078B00463B49 /* SSDPSocket.m in Sources */,
+				BFA34F4D19D4078B00463B49 /* SSDPDeviceService.m in Sources */,
+				BFA34F4F19D4078B00463B49 /* SSDPDeviceParser.m in Sources */,
+				BFA34F4919D4078B00463B49 /* SSDPDevice.m in Sources */,
+				BFA34F4B19D4078B00463B49 /* SSDPDeviceIcon.m in Sources */,
+				BFA34F4519D4078A00463B49 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA34F2919D4075400463B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA34F5219D407BF00463B49 /* ssdpTest.m in Sources */,
+				BFA34F4819D4078B00463B49 /* SSDPSocket.m in Sources */,
+				BFA34F4E19D4078B00463B49 /* SSDPDeviceService.m in Sources */,
+				BFA34F5019D4078B00463B49 /* SSDPDeviceParser.m in Sources */,
+				BFA34F4A19D4078B00463B49 /* SSDPDevice.m in Sources */,
+				BFA34F4C19D4078B00463B49 /* SSDPDeviceIcon.m in Sources */,
+				BFA34F4619D4078B00463B49 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFA34F3119D4075400463B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFA34F3219D4075400463B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA34F3419D4075400463B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Wang (YU48FCX28Z)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FFBBBA3C-AC50-44A1-87C5-89FB2232BD38";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BFA34F3519D4075400463B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Wang (YU48FCX28Z)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FFBBBA3C-AC50-44A1-87C5-89FB2232BD38";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BFA34F3719D4075400463B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ssdpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA34F3819D4075400463B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ssdpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFA34F5519D40E1600463B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA34F5619D40E1600463B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA34F1D19D4075400463B49 /* Build configuration list for PBXProject "ssdp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA34F3119D4075400463B49 /* Debug */,
+				BFA34F3219D4075400463B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA34F3319D4075400463B49 /* Build configuration list for PBXNativeTarget "ssdp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA34F3419D4075400463B49 /* Debug */,
+				BFA34F3519D4075400463B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA34F3619D4075400463B49 /* Build configuration list for PBXNativeTarget "ssdpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA34F3719D4075400463B49 /* Debug */,
+				BFA34F3819D4075400463B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA34F5419D40E1600463B49 /* Build configuration list for PBXAggregateTarget "ssdp-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA34F5519D40E1600463B49 /* Debug */,
+				BFA34F5619D40E1600463B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA34F1A19D4075400463B49 /* Project object */;
+}
